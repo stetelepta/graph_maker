@@ -141,5 +141,7 @@ neo4j_graph = Neo4jGraphModel(edges=graph, create_indices=create_indices)
 neo4j_graph.save()
 
 ```
-
 Each edge of the graph is saved to database in a transaction. If you are running this code for the first time, then set the `create_indices` to true. This prepares the database by setting up the uniqueness constraints on the nodes.
+
+#### Example images
+ ![Example from demo notebook](https://raw.githubusercontent.com/stetelepta/graph_maker/main/images/1.0-graph-example-notebook.jpg)
